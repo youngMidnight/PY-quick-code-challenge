@@ -1,0 +1,18 @@
+# Python junior devloper quick test write a program that counts to 100 and for numbers
+# divisible by 3 print fizz and for numbers divisible 5 print buzz and for numbers
+# that are both divisible by 3 and 5 print fizzbuzz
+
+num1 = 0
+
+while num1 != 100:
+    num1 = num1 + 1
+    print(num1)
+
+    if num1 % 3 == 0:
+        print("fizz")
+
+        if num1 % 5 == 0:
+            print("buzz")
+
+            if num1 % 3 == 0 and num1 % 5 == 0:
+                print("fizzbuzz")
